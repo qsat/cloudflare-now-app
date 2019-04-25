@@ -1,0 +1,27 @@
+{
+  "name": "cloudflare-now-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "now-build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qsat/cloudflare-now-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qsat/cloudflare-now-app/issues"
+  },
+  "homepage": "https://github.com/qsat/cloudflare-now-app#readme",
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
