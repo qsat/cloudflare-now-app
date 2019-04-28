@@ -3,6 +3,7 @@ const Index = () => (
   <div>
     <Header />
     <p>Hello World!!</p>
+    <p>Nextjs と AMPページのテストをしています</p>
   </div>
 )
 
