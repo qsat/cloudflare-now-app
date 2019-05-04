@@ -10,7 +10,7 @@ const Index = () => (
     <Header />
     <p>Hello World!!</p>
     <section>
-      <h1>Nextjs と AMPページのテストをしています</h1>
+      <h1>nowonair.info は様々なメディアのオンエア情報を提供しています</h1>
       <p>Nextjs と AMPページのテストをしています</p>
     </section>
   </div>
