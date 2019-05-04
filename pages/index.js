@@ -1,4 +1,6 @@
+import { withAmp } from 'next/amp'
 import Header from '../components/Header'
+
 const Index = () => (
   <div>
     <Header />
@@ -7,4 +9,4 @@ const Index = () => (
   </div>
 )
 
-export default Index
+export default withAmp(Index)
