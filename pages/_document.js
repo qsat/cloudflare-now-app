@@ -2,9 +2,9 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 import styled, { ServerStyleSheet } from "styled-components";
 
 const Body = styled.body`
-font-family: Roboto, sans-serif;
-padding: 30px;
-color: #444;
+  font-family: Roboto, sans-serif;
+  padding: 30px;
+  color: #444;
 `;
 
 const getStyleTag = sheet => {
@@ -49,7 +49,18 @@ export default class MyDocument extends Document {
             rel='stylesheet'
             href='https://fonts.googleapis.com/css?family=Roboto'
           />
+
           {this.props.styleTags}
+
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "headline": "Open-source framework for publishing content",
+            "datePublished": "2015-10-07T12:02:41Z",
+            "image": [
+              "/static/logo.png"
+            ]
+          }` }} />
         </Head>
         <Body>
           <Main />
