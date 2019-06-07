@@ -1,17 +1,22 @@
 import { withAmp } from 'next/amp'
+import styled from 'styled-components'
 import Head from 'next/head'
 import Header from '../components/Header'
+
+const MainText = styled.div`
+  color: red;
+`
 
 const Index = () => (
   <div>
     <Head>
-      <title>nowonair.info は様々なメディアのオンエア情報を提供しています</title>
+      <title>TEST</title>
     </Head>
     <Header />
     <p>Hello World!!</p>
     <section>
-      <h1>nowonair.info は様々なメディアのオンエア情報を提供しています</h1>
-      <p>Nextjs と AMPページのテストをしています</p>
+      <h1>TEST</h1>
+      <MainText>Nextjs と AMPページのテストをしています</MainText>
     </section>
   </div>
 )
